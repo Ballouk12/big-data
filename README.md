@@ -1,26 +1,20 @@
-```xml
-<project>
-    <name>Weather Data Platform</name>
-    <description>Pipeline Big Data de collecte et d'analyse de données météorologiques en temps réel et en batch.</description>
-    <data-source>Open-Meteo API</data-source>
-    <languages>
-        <language>Python</language>
-        <language>PySpark</language>
-    </languages>
-    <tools>
-        <tool category="orchestration">Docker Compose</tool>
-        <tool category="ingestion">Apache Flume</tool>
-        <tool category="messaging">Apache Kafka</tool>
-        <tool category="distributed-processing">Apache Spark Structured Streaming</tool>
-        <tool category="machine-learning">Spark MLlib</tool>
-        <tool category="nosql-storage">Apache HBase</tool>
-        <tool category="distributed-storage">Hadoop HDFS</tool>
-        <tool category="notebooks">Apache Zeppelin</tool>
-        <tool category="coordination">Apache ZooKeeper</tool>
-    </tools>
-    <data-flow>Open-Meteo -&gt; Python -&gt; Flume -&gt; Kafka -&gt; Spark -&gt; HBase/HDFS</data-flow>
-</project>
-```
+<p align="center">
+    <img src="https://img.shields.io/badge/Python-3.9-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.9" />
+    <img src="https://img.shields.io/badge/Apache%20Spark-3.1.1-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Apache Spark 3.1.1" />
+    <img src="https://img.shields.io/badge/Apache%20Kafka-2.8.1-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Apache Kafka 2.8.1" />
+    <img src="https://img.shields.io/badge/Apache%20Flume-1.11.0-F46D01?style=for-the-badge" alt="Apache Flume 1.11.0" />
+    <img src="https://img.shields.io/badge/Apache%20HBase-NoSQL-CC0000?style=for-the-badge&logo=apachehbase&logoColor=white" alt="Apache HBase" />
+    <img src="https://img.shields.io/badge/Hadoop-HDFS-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black" alt="Hadoop HDFS" />
+    <img src="https://img.shields.io/badge/Docker-Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose" />
+    <img src="https://img.shields.io/badge/Apache%20Zeppelin-0.10.1-8B5CF6?style=for-the-badge" alt="Apache Zeppelin 0.10.1" />
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/Status-Portfolio%20Project-success" alt="Portfolio project" />
+    <img src="https://img.shields.io/badge/Data%20Processing-Streaming%20%2B%20Batch-blue" alt="Streaming and batch data processing" />
+    <img src="https://img.shields.io/badge/Machine%20Learning-Spark%20MLlib-orange" alt="Spark MLlib" />
+    <img src="https://img.shields.io/badge/Deployment-Docker%20Compose-2496ED?logo=docker&logoColor=white" alt="Docker Compose deployment" />
+</p>
 
 # Weather Data Platform
 
